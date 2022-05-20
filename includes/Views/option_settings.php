@@ -8,14 +8,10 @@
             echo '<br>';
         }
     }
-    else{  
-        echo 'False';
-        echo '<br>';
-    }
 ?>
 
 <?php 
     $product = wc_get_product();
     $product->get_price();
 ?>
-<div id="total" data-cost="<?php echo $product->get_price(); ?>">Total price: <span id="total1"><?php echo wc_price($product->get_price()); ?></span></div>
+<div id="total" data-cost="<?php echo $product->get_price(); ?>">Total price: <span id="total_last"><?php echo wc_price($product->get_price()); ?></span></div>
