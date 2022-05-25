@@ -18,9 +18,7 @@ class Ajax {
   }
 
   private function doHooks() {
-    
     add_action( 'wp_ajax_save_settings',   array($this, 'save_settings') );
-
   }
 
   private function __construct() {}

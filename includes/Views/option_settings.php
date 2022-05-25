@@ -2,8 +2,8 @@
     $arr = get_option('yay_settings');
     if(!empty($arr)){
         foreach($arr as $key => $value){
-            echo '<input type="checkbox" name="vehicle" class="vehicle"
-                 data-cost="',$value['cost'],'"/>';
+            echo '<input type="checkbox" name="vehicle['.$value['value'].']" class="vehicle"
+                 data-cost="',$value['cost'],'" value="',$value['cost'],'" style="margin: 10px;"/>';
             echo '<label>',$value['value'].' ('.wc_price($value['cost']) . ')','</label>';
             echo '<br>';
         }

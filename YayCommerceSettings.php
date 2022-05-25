@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: YayCommerceSettings
+ * Plugin Name: YayCommerce
  * Description: Đây là plugin đầu tiên mà tôi viết dành riêng cho WordPress, chỉ để học tập mà thôi. // Phần mô tả cho plugin
  * Version: 1.0 // Đây là phiên bản đầu tiên của plugin
  * Author: Cao Luong Thien // Tên tác giả, người thực hiện plugin này
